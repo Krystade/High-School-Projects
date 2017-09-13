@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.params=args
+comment0.target=void\ main(java.lang.String[])
+comment1.params=n
+comment1.target=java.lang.Long[]\ getAllPrimeFactors(long)
+comment1.text=\r\n\ \ \ \ \ Return\ value\:\ List\ of\ all\ prime\ factors\ of\ a\ given\ number\ n\r\n
+comment2.params=n
+comment2.target=java.lang.Long[][]\ getUniquePrimeFactorsWithCount(long)
+comment2.text=\r\n\ \ \ \ \ Return\ value\:\ List\ containing\ two\ lists,\ first\ containg\ all\ prime\ factors\ without\ duplicates,\r\n\ \ \ \ \ second\ containing\ the\ count,\ how\ often\ each\ prime\ factor\ occured.\r\n\ \ \ \ \ Return\ code\ always\ contains\ two\ lists.\r\n\ \ \ \ \ \r\n\ \ \ \ \ e.g.\:\ getUniquePrimeFactorsWithCount(100)\ \=\ {{2,5},{2,2})\ //\ prime\ 2\ occurs\ 2\ times,\ prime\ 2\ occurs\ 5\ times,\ \r\n
+comment3.params=n
+comment3.target=java.lang.Long[]\ getPrimeFactorPotencies(long)
+comment3.text=\r\n\ \ \ \ \ Return\ value\:\ List\ containing\ product\ of\ same\ prime\ factors,\r\n\ \ \ \ \ e.g.\:\ 45\ \=\ 3*3*5\ \=\=>\ \ {3^2,5^1}\ \=\=\ {9,5}\r\n\ \ \ \ \ e.g.\:\ getUniquePrimeFactorsWithCount(100)\ \=\ {{2,5},{2,2})\ //\ prime\ 2\ occurs\ 2\ times,\ prime\ 2\ occurs\ 5\ times,\ \r\n
+numComments=4
