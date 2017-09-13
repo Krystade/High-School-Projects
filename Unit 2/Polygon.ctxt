@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Polygon()
+comment1.params=newName\ newNumOfSides\ newSideLength
+comment1.target=Polygon(java.lang.String,\ int,\ double)
+comment2.params=numOfSides\ sideLength
+comment2.target=double\ getPerimeter(int,\ double)
+comment3.params=
+comment3.target=java.lang.String\ toString()
+numComments=4
