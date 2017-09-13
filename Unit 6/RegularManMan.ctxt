@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=
+comment0.target=RegularManMan()
+comment1.params=suitColor\ hasCape
+comment1.target=RegularManMan(java.lang.String,\ boolean)
+comment2.params=
+comment2.target=java.lang.String\ catchphrase()
+numComments=3

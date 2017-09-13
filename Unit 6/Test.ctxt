@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=tImg\ parent
+comment0.target=Test(java.lang.String,\ javax.swing.JFrame)
+comment0.text=constuctor\ \ \ \ \ *
+comment1.params=g
+comment1.target=void\ paint(java.awt.Graphics)
+comment1.text=this\ is\ the\ function\ you\ want\ to\ learn\ \ **********
+comment2.params=arg0
+comment2.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment3.params=args
+comment3.target=void\ main(java.lang.String[])
+numComments=4

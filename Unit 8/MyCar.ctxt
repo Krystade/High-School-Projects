@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=
+comment0.target=java.lang.String\ connectToBluetooth()
+comment1.params=
+comment1.target=MyCar()
+comment2.params=brand\ color\ age
+comment2.target=MyCar(java.lang.String,\ java.lang.String,\ int)
+numComments=3

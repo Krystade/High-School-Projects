@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=
+comment0.target=MyPhone()
+comment1.params=name\ price\ storage\ numOfSongs
+comment1.target=MyPhone(java.lang.String,\ int,\ int,\ int)
+comment2.params=numOfSongs
+comment2.target=void\ setNumOfsongs(int)
+comment3.params=
+comment3.target=int\ getNumOfSongs()
+comment4.params=
+comment4.target=java.lang.String\ toString()
+numComments=5

@@ -1,0 +1,133 @@
+//Jack Schmid
+import java.util.ArrayList;
+public class MyDeviceDriver{
+    public static void main(String[] args){
+        ArrayList<String> names = new ArrayList<String>();
+        names.add("Shay");
+        names.add("Alyssa");
+        names.add("Luca");
+        names.add("Lee");
+        names.add("Rae");
+        names.add("Ray");
+        names.add("Kyle");
+        names.add("London");
+        names.add("Emma");
+        names.add("Raimy");
+        names.add("Amari");
+        names.add("Claire");
+        names.add("Rachel");
+        names.add("Hailey");
+        names.add("Kay");
+        names.add("Akiyama");
+        names.add("Adrian");
+        names.add("Ariana");
+        names.add("Christian");
+        names.add("Kim");
+        names.add("Paris");
+        names.add("Kaylee");
+        names.add("Morgan");
+        names.add("Carrie");
+        names.add("Jasmine");
+        names.add("Alexis");
+        names.add("Aria");
+        names.add("Ava");
+        names.add("Emily");
+        names.add("Olivia");
+        names.add("Isabella");
+        names.add("Ambrosia");
+        names.add("Kel");
+        names.add("Hannah");
+        names.add("Aki");
+        names.add("Natalie");
+        names.add("Ryan");
+        names.add("Sophia");
+        names.add("Evelyn");
+        names.add("Megan");
+        names.add("Nevaeh");
+        names.add("Ullah");
+        names.add("Moon");
+        names.add("Chloe");
+        names.add("Mia");
+        names.add("Rana");
+        names.add("Samora");
+        names.add("Amaya");
+        names.add("Anna");
+        names.add("Ella");
+        names.add("Shay");
+        names.add("Luca");
+        names.add("John");
+        names.add("Lee");
+        names.add("Rae");
+        names.add("Lucas");
+        names.add("Ray");
+        names.add("Kyle");
+        names.add("London");
+        names.add("LeBron");
+        names.add("Raimy");
+        names.add("Harry");
+        names.add("Amari");
+        names.add("Hailey");
+        names.add("Kay");
+        names.add("Alexander");
+        names.add("Jackson");
+        names.add("Matthew");
+        names.add("Nino");
+        names.add("Noah");
+        names.add("Adrian");
+        names.add("Hanson");
+        names.add("Leo");
+        names.add("Max");
+        names.add("Reinhart");
+        names.add("Kim");
+        names.add("Christian");
+        names.add("Anthony");
+        names.add("Smith");
+        names.add("Paris");
+        names.add("Akbar");
+        names.add("Kaylee");
+        names.add("Austin");
+        names.add("Morgan");
+        names.add("Michael");
+        names.add("Abe");
+        names.add("Santi");
+        names.add("Wyatt");
+        names.add("Caleb");
+        names.add("Kyzer");
+        names.add("Charles");
+        names.add("Jayden");
+        names.add("Owen");
+        names.add("Mason");
+        names.add("Adam");
+        names.add("Kel");
+        names.add("Eliyah");
+        names.add("Liam");
+        names.add("Nicholas");
+        names.add("Elias");
+        
+        String[] phone = {"5","5S","6","6S","6S+", "7","7+"};
+        int[] price = {250,300,500,700,800,950,1100};
+        
+        ArrayList<MyDevice> array = new ArrayList<MyDevice>();
+        array.add(new MyPhone());
+        int rand = (int)(Math.random() * 6);
+        array.add(new MyPhone("Iphone " + phone[rand], price[rand], 64, (int)(Math.random() * 300)));
+        rand = (int)(Math.random() * 6);
+        array.add(new MyPhone("Iphone " + phone[rand], price[rand], 64, (int)(Math.random() * 300)));
+        rand = (int)(Math.random() * 6);
+        array.add(new MyPhone("Iphone " + phone[rand], price[rand], 128, (int)(Math.random() * 300)));
+        rand = (int)(Math.random() * 6);
+        array.add(new MyPhone("Iphone " + phone[rand], price[rand], 128, (int)(Math.random() * 300)));
+        rand = (int)(Math.random() * 6);
+        array.add(new MyPhone("Iphone " + phone[rand], price[rand], 128, (int)(Math.random() * 300)));
+        rand = (int)(Math.random() * 6);
+        array.add(new MyPhone("Iphone " + phone[rand], price[rand], 128, (int)(Math.random() * 300)));
+        rand = (int)(Math.random() * 6);
+        
+        for(int i = 0; i < array.size() - 1; i++){
+            array.get(i).setOwner(names.get((int)(Math.random() * 100)));
+        }
+        for(MyDevice device : array){
+            System.out.println(device);
+        }
+    }
+}

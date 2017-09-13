@@ -1,0 +1,12 @@
+//JackSchmid
+public class BWTV extends TV implements Analog{
+    public String rotateRabbitEars(){
+        return "Rabbit ears rotated 45 degrees";
+    }
+    public String connectHDMI(){
+        return "There is no HDMI port on this device.";
+    }
+    public String tvType(){
+        return "I'm a black and white TV";
+    }
+}
