@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.params=
+comment0.target=GPS()
+comment1.params=diffName\ diffAltitude\ diffTransmissionTime
+comment1.target=GPS(java.lang.String,\ int,\ double)
+comment2.params=
+comment2.target=double\ getTransmissionTime()
+comment3.params=newTime
+comment3.target=void\ setTransmissionTime(double)
+comment4.params=
+comment4.target=double\ calcHypotenuse()
+comment5.params=
+comment5.target=double\ calcDistance()
+comment6.params=
+comment6.target=java.lang.String\ toString()
+numComments=7
